@@ -1,0 +1,41 @@
+.h2o-footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__item{
+        display: flex;
+        align-items: center;
+        
+        width: 100%;
+        max-width: 115px;
+
+        @include for-small-tablet{
+            padding: 0 5px 40px;
+        }
+
+        @include small-tablet{
+            padding: 0 10px 20px;
+            width: fit-content;
+        }
+    }
+
+    &--mode{
+        grid-gap: clamp(20px, 2.214vw, 30px);
+        .h2o-footer-links{
+
+
+            &__item{
+                justify-content: center;
+                padding: 0;
+                max-width: 100%;
+                width: fit-content;
+
+                @include small-tablet{
+                    transform: scale(.7);
+                  }
+            }
+        }
+    }
+}

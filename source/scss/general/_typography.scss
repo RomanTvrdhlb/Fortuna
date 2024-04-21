@@ -1,0 +1,126 @@
+.h2o-title {
+  grid-gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.h2o-subtitle {
+  font-family: var(--font-family);
+  color: rgba(var(--cl-d), 0.6);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+h1,h2,h3,h4{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: clamp(21px, 2.3616vw, 32px);
+  line-height: 100%;
+  color: rgba(var(--cl-c), 1);
+}
+
+h5,h6{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: clamp(18px, 1.7712vw, 24px);
+  line-height: 100%;
+  color: rgba(var(--cl-c), 1);
+}
+
+ol{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  counter-reset: li;
+
+  li{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px;
+    grid-gap: 10px;
+    
+
+    &::before{
+      position: absolute;
+      left: 0;
+      top: -6.5px;
+      content: counters(li, '') '.';
+      counter-increment: li;
+      font-size: clamp(15px, 1.2546vw, 17px);
+      font-family: var(--font-family);
+      font-weight: 700;
+      color: rgba(var(--cl-c),1.0);
+    }
+  }
+}
+
+ul:not([class]) {
+  display: flex;
+  flex-direction: column;
+  padding-left: 26px;
+  grid-gap: 10px;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    grid-gap: 5px;
+    color: rgba(var(--cl-a),1.0);
+
+    &::before{
+      content: "";
+      left: -12px;
+      border-radius: 50%;
+      position: absolute;
+      top: 6px;
+      width: 6px;
+      height: 6px;
+      background-color: rgba(var(--bg-d),1.0);
+    }
+  }
+}
+
+table:not([class]) {
+  width: 100%;
+  box-shadow: 0 0 0 1px rgba(37, 41, 46, 0.9), 0 2px 0 0 rgba(37, 41, 46, 0.75),
+    0 -2px 0 0 rgba(37, 41, 46, 0.75);
+  border: 1px solid var(--br-c);
+  position: relative;
+  border-spacing: 0;
+
+  @include small-tablet{
+    overflow-x: scroll;
+    display: table-column-group;
+
+    & > *{
+      white-space: nowrap;
+    }
+    
+    td{
+      min-width: 185px;
+      white-space: normal !important;
+    }
+  }
+
+  th {
+    padding: 15px 5px;
+    color: rgba(var(--cl-a), 1);
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgba(var(--bg-c),1.0);
+    border: solid 1px var(--br-c);
+    color: rgba(var(--cl-g),1.0);
+  }
+
+  td {
+    text-align: center;
+    padding: 10px;
+    color: rgba(var(--cl-a), 1);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    border: solid 1px var(--br-c);
+  }
+}

@@ -1,0 +1,81 @@
+.h2o-yellow-button {
+  padding: 0 15px;
+  text-align: center;
+  color: rgba(var(--cl-b), 1);
+  font-family: var(--font-family);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background: rgba(var(--bg-d), 1);
+  display: inline-block;
+  height: clamp(40px, 3.5424vw, 48px);
+  min-width: clamp(70px, 8.1181vw, 110px);
+  border-radius: 50px 0 0 50px;
+  border: 1px solid var(--br-a);
+  transition: all 0.4s;
+
+  &:hover {
+    background: rgba(var(--bg-b), 1);
+    color: rgba(var(--cl-c), 1);
+  }
+}
+
+.h2o-green-button {
+  min-width: clamp(125px, 12.1771vw, 165px);
+  border-radius: 0 50px 50px 0;
+  display: inline-block;
+  height: clamp(40px, 3.5424vw, 48px);
+  background: rgba(var(--bg-e),1.0);
+  border: 1px solid var(--br-b);
+  padding: 0 15px;
+  text-align: center;
+  color: rgba(var(--cl-b), 1);
+  font-family: var(--font-family);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.4s;
+
+  &:hover {
+    background: rgba(var(--bg-b), 1);
+    color: rgba(var(--cl-d),1.0);
+  }
+}
+
+
+.h2o-games-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: clamp(35px, 3.69vw, 50px);
+    padding: 5px 20px;
+    background: rgba(var(--bg-c),1.0);
+    border-radius: 50px;
+    color: rgba(var(--cl-c),1.0);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all .4s;
+    width: fit-content;
+
+    &:hover{
+      background: rgba(var(--bg-d),1.0);
+      color: rgba(var(--cl-f),1.0);
+    }
+
+    &__label{
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      padding: 5px 10px;
+      background: rgba(var(--bg-e),1.0);
+      border-radius: 20px;
+      color:  rgba(var(--cl-a),1.0);
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+}

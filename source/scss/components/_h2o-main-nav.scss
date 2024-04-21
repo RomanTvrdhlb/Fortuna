@@ -1,0 +1,92 @@
+.h2o-main-nav{
+    display: flex;
+    align-items: center;
+
+    &__link{
+        display: flex;
+        align-items: center;
+        font-size: clamp(12px, 1.0332vw, 14px);
+        line-height: 100%;
+        color: rgba(var(--cl-a),1.0);
+        text-transform: uppercase;
+        font-family: var(--font-family);
+        transition: all .4s;
+        padding: 0 20px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 1px;
+        min-height: 48px;
+
+        &:hover{
+            background: rgba(var(--bg-c),1.0);
+            color: rgba(var(--cl-c),1.0);
+        }
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        grid-gap: clamp(10px, 1.107vw, 15px);
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    &__item{
+        display: flex;
+    }
+
+    &__search{
+        display: flex;
+        align-items: center;
+        grid-gap: 8px;
+        min-height: clamp(40px, 3.69vw, 50px);
+        padding: 0 clamp(8px, .9594vw, 13px);
+        background: rgba(var(--bg-g),1.0);
+        border-radius: 10px;
+        transition: all .3s;
+        max-width: clamp(160px, 18.4502vw, 250px);
+
+        &:hover{
+            background: rgba(var(--bg-c),1.0);
+        }
+    }
+
+    &__input{
+        font-family: var(--font-family);
+        color: rgba(var(--cl-a),1.0);
+        font-size: clamp(16px, 1.476vw, 20px);
+        line-height: 110%;
+    }
+
+    &__btn{
+        display: flex;
+        align-items: center;
+        grid-gap: 10px;
+        min-height: clamp(40px, 3.69vw, 50px);
+        width: 100%;
+        padding: 0 clamp(8px, .9594vw, 13px);
+        font-family: var(--font-family);
+        background: rgba(var(--bg-g),1.0);
+        border-radius: 10px;
+        color: rgba(var(--cl-a),1.0);
+        font-size: 14px;
+        text-transform: capitalize;
+        flex-grow: 0;
+        transition: all .3s;
+        white-space: nowrap;
+
+        &:hover{
+            background: rgba(var(--bg-c),1.0);
+        }
+    }
+
+
+    &--mode{
+
+        .h2o-main-nav{
+
+        }
+    }
+}

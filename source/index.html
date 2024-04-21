@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="Ru">
+@include('partials/head.html')
+
+<body>
+  @include('partials/header.html')
+
+  <main>
+
+    <section class="h2o-first-section">
+      <div class="h2o-container">
+        <div class="h2o-first-section__box">
+          <nav class="h2o-main-nav h2o-main-nav--mode">
+            <ul class="h2o-main-nav__list">
+              <li class="h2o-main-nav__item">
+                <form class="h2o-main-nav__search">
+                  <button class="h2o-main-nav__search-btn h2o-next"><i class="h2o-icon-search"></i></button>
+                  <label for="search" class="h2o-main-nav__search-label">
+                    <input class="h2o-main-nav__input" type="text" id="search" placeholder="Найти игры">
+                  </label>
+                </form>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-allgames"></span>
+                  Все
+                </button>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-slots"></span>
+                  Слоты
+                </button>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-jackpots"></span>
+                  Джекпоты
+                </button>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-live"></span>
+                  Live Игры
+                </button>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-games"></span>
+                  Настрольные Игры
+                </button>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-wins"></span>
+                  Drops & Wins
+                </button>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-instant"></span>
+                  Instant Win
+                </button>
+              </li>
+              <li class="h2o-main-nav__item">
+                <button class="h2o-main-nav__btn h2o-next">
+                  <span class="h2o-icon-poker"></span>
+                  Видео покеры
+                </button>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="h2o-first-section__inner">
+            <div class="h2o-first-section__top">
+              <h1 class="h2o-title">
+                <span class="h2o-icon-all"></span>
+                Игровые Автоматы
+              </h1>
+
+              <button class="h2o-games-btn h2o-next">Все игры
+                <span class="h2o-games-btn__label">8478</span>
+              </button>
+            </div>
+
+
+            <div class="h2o-games-slider splide">
+              <div class="h2o-games-slider__wrapp splide__track">
+                <ul class="h2o-games-slider__list splide__list">
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game1.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game2.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-spino"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game9.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-octa"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game4.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-pragmatic"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game5.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-spino"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game6.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game7.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game8.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game9.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game10.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game2.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game9.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game4.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game5.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game6.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game7.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game4.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game5.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game6.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+
+                  <li class="h2o-games-slider__slide splide__slide">
+                    <div class="h2o-game-card">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game7.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="h2o-best-section">
+      <div class="h2o-container">
+        <div class="h2o-best-section__box">
+          <div class="h2o-best-section__top">
+            <h2 class="h2o-title">
+              <span class="h2o-icon-money"></span>
+              Лучшие
+            </h2>
+            <div class="h2o-best-section__category">
+              <button class="h2o-best-section__btn h2o-next">
+                <i class="h2o-icon-box"></i>
+              </button>
+              <button class="h2o-best-section__btn h2o-next">
+                <i class="h2o-icon-crystal"></i>
+              </button>
+              <button class="h2o-best-section__btn h2o-next">
+                <i class="h2o-icon-crown"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="h2o-best-slider splide">
+            <div class="h2o-best-slider__wrapp splide__track">
+              <ul class="h2o-best-slider__list splide__list">
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game11.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Buffalo Blitz 2</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Buffalo Blitz 2</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game12.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Vault Blast Hold & Win</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-octa"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Vault Blast Hold & Win</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game13.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Richy Hog</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-spino"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Richy Hog</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game14.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Heist: Bank Rush - Hold & Win™</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-pragmatic"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Heist: Bank Rush - Hold &
+                        Win™</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game15.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Wild Tiger</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-ruby"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Wild Tiger</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game13.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Richy Hog</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-spino"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Richy Hog</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game14.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Heist: Bank Rush - Hold & Win™</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-pragmatic"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Heist: Bank Rush - Hold &
+                        Win™</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="h2o-best-slider__slide splide__slide">
+                  <div class="h2o-game-card h2o-game-card--best">
+                    <div class="h2o-game-card__top">
+                      <div class="h2o-game-card__image">
+                        <img width="243" height="160" src="static/img/index/game12.png" alt="image">
+                      </div>
+                      <div class="h2o-game-card__label">
+                        <span class="h2o-icon__exclusive"></span>
+                      </div>
+
+                      <div class="h2o-game-card__wrapp">
+                        <span class="h2o-game-card__title">Vault Blast Hold & Win</span>
+                        <div class="h2o-game-card__center">
+                          <span class="h2o-game-card__play h2o-icon-play"></span>
+                          <span class="h2o-game-card__demo">Демо</span>
+                        </div>
+
+                        <div class="h2o-game-card__provider">
+                          <i class="h2o-icon-octa"></i>
+                        </div>
+                      </div>
+                      <button class="h2o-game-card__btn h2o-next"></button>
+                    </div>
+                    <div class="h2o-game-card__bottom">
+                      <span class="h2o-game-card__title h2o-game-card__title--mode">Vault Blast Hold & Win</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="h2o-jackpots-section">
+      <div class="h2o-container">
+        <div class="h2o-jackpots-section__box">
+          <div class="h2o-jackpots-section__top">
+            <h3 class="h2o-title">
+              <span class="h2o-icon-prize"></span>
+              Джекпоты
+            </h3>
+
+            <button class="h2o-games-btn h2o-next">Все джекпоты
+              <span class="h2o-games-btn__label">845</span>
+            </button>
+          </div>
+
+
+          <div class="h2o-games-slider h2o-games-slider--jackpots splide">
+            <div class="h2o-games-slider__wrapp splide__track">
+              <ul class="h2o-games-slider__list splide__list">
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game1.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings"></i></span>
+                      <span class="h2o-game-card__jackpot-value">13,214.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-ruby"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game2.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings red"></i></span>
+                      <span class="h2o-game-card__jackpot-value red">27,360.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-spino"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game9.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings green"></i></span>
+                      <span class="h2o-game-card__jackpot-value green">27,360.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-octa"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game4.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings"></i></span>
+                      <span class="h2o-game-card__jackpot-value">27,360.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-pragmatic"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game5.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings green"></i></span>
+                      <span class="h2o-game-card__jackpot-value green">17,320.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-spino"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game6.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings red"></i></span>
+                      <span class="h2o-game-card__jackpot-value red">18,121.34 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-ruby"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game9.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings green"></i></span>
+                      <span class="h2o-game-card__jackpot-value green">27,360.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-octa"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game4.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings"></i></span>
+                      <span class="h2o-game-card__jackpot-value">27,360.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-pragmatic"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game5.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings green"></i></span>
+                      <span class="h2o-game-card__jackpot-value green">17,320.13 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-spino"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+                <li class="h2o-games-slider__slide splide__slide">
+                  <div class="h2o-game-card">
+                    <div class="h2o-game-card__image">
+                      <img width="243" height="160" src="static/img/index/game6.png" alt="image">
+                    </div>
+                    <div class="h2o-game-card__jackpot">
+                      <span class="h2o-game-card__jackpot-icon"><i class="h2o-icon-winnings red"></i></span>
+                      <span class="h2o-game-card__jackpot-value red">18,121.34 USD</span>
+                    </div>
+                    <div class="h2o-game-card__label">
+                      <span class="h2o-icon__exclusive"></span>
+                    </div>
+
+                    <div class="h2o-game-card__wrapp">
+                      <span class="h2o-game-card__title">Privé Lounge Blackjack 7</span>
+                      <div class="h2o-game-card__center">
+                        <span class="h2o-game-card__play h2o-icon-play"></span>
+                        <span class="h2o-game-card__demo">Демо</span>
+                      </div>
+
+                      <div class="h2o-game-card__provider">
+                        <i class="h2o-icon-ruby"></i>
+                      </div>
+                    </div>
+                    <button class="h2o-game-card__btn h2o-next"></button>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="h2o-about-section">
+      <div class="h2o-container">
+        <div class="h2o-about-section__box">
+          <div class="h2o-about-section__inner">
+            <h1>Вы на сайте лицензионного онлайн казино Плей Фортуна</h1>
+            <div class="h2o-main-box">
+              <p>В онлайн казино «Плей Фортуна» игроки найдут более 5900 игровых автоматов, в том числе и с джекпотами,
+                более 450 настольных игр и игр с мгновенными выигрышами (по состоянию на июнь 2023 года). Все игры
+                поставляются с различными тематиками, которые делают игровой процесс увлекательным и необычным, а
+                бонусные функции помогают увеличить выигрыш.
+              </p>
+              <p>В 2023 году казино Плей Фортуна обновила интерфейс официального сайта, добавив больше фильтров для игр.
+              </p>
+              <p>Свежие новости об онлайн казино и вспомогательные разделы находятся под логотипом. Основная информация
+                о Play Fortuna, которая будет рассмотрена ниже, поделена на четкие разделы. Для быстрой навигации по ним
+                используйте пункты содержания.</p>
+            </div>
+          </div>
+
+          <div class="h2o-about-section__inner">
+            <h2>Ассортимент игр в казино Play Fortuna</h2>
+            <div class="h2o-main-box">
+              <p>Официальный сайт казино работает с 2012 года по лицензии Кюрасао. Playfortuna.com управляется компанией
+                NETGLOBE SERVICES LTD, действующей в качестве платежного оператора с зарегистрированным юридическим
+                адресом.</p>
+              <p>Игры рассортированы по категориям:</p>
+              <ul>
+                <li>
+                  <p><button class="h2o-next">Слоты</button> — игровые автоматы с ярким оформлением, уникальными
+                    сюжетами, простым управлением и выгодными бонусами;</p>
+                </li>
+                <li>
+                  <p><button class="h2o-next">Джекпоты</button> — игры с фиксированной или </p>
+                </li>
+                <li>
+                  <p><button class="h2o-next">Live игры</button> — игры с реальными дилерами казино в прямом эфире,
+                    преимущественно это блэкджек, баккара и рулетка;</p>
+                </li>
+                <li>
+                  <p><button class="h2o-next">Видео покеры</button> — идеальное сочетание механики игровых автоматов и
+                    карточных игр;</p>
+                </li>
+              </ul>
+              <img width="400" height="254" src="static/img/index/game5.png" alt="image">
+              <h5>Играйте бесплатно и на реальные деньги</h5>
+              <p>Для тех, кто еще не играл в автоматы, казино предлагает демонстрационный режим. Игра в демо бесплатная
+                и не требует регистрации, при обнулении виртуальных поинтов нужно обновить страницу и начать игру
+                сначала. Преимущества бесплатной игры заключаются в возможности ознакомиться с правилами и
+                характеристиками автомата, а также определить стратегию для победы. Для игры на деньги нужно пройти
+                регистрацию. После заполнения формы и подтверждения аккаунта пополните счет и выберите режим «На
+                деньги». Казино принимает 10 видов валют для пополнения счета:</p>
+            </div>
+          </div>
+
+          <div class="h2o-about-section__inner">
+            <h4>Огромные выигрыши</h4>
+            <div class="h2o-main-box">
+              <p>В игровом онлайн казино Вулкан выиграть может каждый! Для этого достаточно пополнить игровой
+                счет, подобрать подходящую игру, сделать ставку и запустить барабаны – вот тогда и начнется все
+                самое интересное! К слову, что касается денежных операций, то с этим проблем не возникнет. Для
+                совершения депозитов годятся кредитные карты, популярные платежные системы, банковские терминалы и
+                специальные SMS-сообщения. Выплата выигрышей производится с максимальной возможной скоростью. Все
+                денежные транзакции отличаются высочайшей степенью безопасности.</p>
+
+              <img width="500" height="326" src="static/img/index/game1.png" alt="image">
+
+            </div>
+          </div>
+
+          <div class="h2o-about-section__inner">
+            <h5>Турниры</h5>
+            <div class="h2o-main-box">
+              <p>На сайте регулярно проводятся турниры, акции, гонки и соревнования, создающие интересные и выгодные
+                условия игры. Турниры отличаются по количеству игровых автоматов, продолжительности и итоговой сумме
+                выигрыша.</p>
+              <p>С 23 по 26 июня 2023 года игроки принимали участие в турнире «Элитная резиденция» с призовым фондом в 5
+                000 000 поинтов. Награду разделили 100 наиболее активных участников события. Дополнительно проводятся и
+                другие типы турниров, в которых всё завязано на призовых <button class="h2o-next">множителях.</button>
+                В зависимости от конкретного типа турнира, победителями становятся участники, которые сорвали
+                максимальный множитель, выиграли у соперников по сумме множителей или получили максимальный коэффициент
+                в каждой игре.</p>
+            </div>
+          </div>
+
+          <div class="h2o-about-section__inner h2o-about-section__inner--mode">
+            <div class="h2o-main-box">
+              <h4>Платежные системы</h4>
+              <p>В казино Плей Фортуна доступно более 10 методов пополнения счета, среди которых:</p>
+
+              <ul>
+                <li>
+                  <p>Банковские карты</p>
+                </li>
+                <li>
+                  <p>Piastrix</p>
+                </li>
+                <li>
+                  <p>Оплата по QR-коду</p>
+                </li>
+                <li>
+                  <p>Система быстрых платежей</p>
+                </li>
+                <li>
+                  <p>CashToCode</p>
+                </li>
+                <li>
+                  <p>Neteller</p>
+                </li>
+                <li>
+                  <p>RapidTransfere</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="h2o-about-section__inner">
+            <h6>Контакты Play Fortuna</h6>
+            <div class="h2o-main-box">
+              <p>Если у вас есть хороший источник трафика и хотите максимально эффективно его конвертировать — свяжитесь
+                с <button class="h2o-next">партнерской программой Gambling Craft</button> для заработка вместе с Плей
+                Фортуной. В партнерской программе казино Плей Фортуна представлены лучшие решения и персонализированные
+                условия заработка. Промо материалы и условия подробно расписаны в личном кабинете, регистрируйтесь и
+                присоединяйтесь к команде лучших вебмастеров.</p>
+              <ul>
+                <li>
+                  <p>Адрес: NetGlobe Services Ltd 79 Spyrou Kyprianou Avenue Protopapas Building 2-nd floor, office 201 3076 Limassol, Cyprus Registration number HE 313864</p>
+                </li>
+                <li>
+                  <p><b>Техническая поддержка: </b><button class="h2o-next">help@playfortuna.com</button></p>
+                </li>
+                <li>
+                  <p><b>Написать директору: </b><button class="h2o-next">dir@playfortuna.com</button></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="h2o-about-section__inner h2o-about-section__inner--mode">
+            <div class="h2o-main-box h2o-main-box--mode">
+              <h6>БОНУСНАЯ ПОЛИТИКА</h6>
+              <p> Чтобы поощрять Игроков, Казино может время от времени предлагать бонусы Игрокам (депозитные и бездепозитные), бесплатные вращения, турниры, лотереи и другие виды бонусов.</p>
+              <p>Один игрок может участвовать в бонусных акциях, предлагаемых Казино, используя только одну (1) игровую учетную запись.</p>
+
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      СТАТУС</th>
+                    <th>КОЛИЧЕСТВО БАЛЛОВ</th>
+                    <th>КУРС ОБМЕНА </th>
+                    <th>БОНУС</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Iron</td>
+                    <td>от 0 до 100 баллов</td>
+                    <td>8:1</td>
+                    <td>-</td>
+
+                  </tr>
+                  <tr>
+                    <td>Bronze</td>
+                    <td>от 100 до 500 баллов</td>
+                    <td>6:1</td>
+                    <td>-</td>
+
+                  </tr>
+                  <tr>
+                    <td>Silver</td>
+                    <td>от 500 до 2500 баллов</td>
+                    <td>5:1</td>
+                    <td>50 баллов</td>
+                  </tr>
+                  <tr>
+                    <td>Gold</td>
+                    <td>от 2500 до 12 500 баллов</td>
+                    <td>4:1</td>
+                    <td>250 баллов</td>
+                  </tr>
+                  <tr>
+                    <td>Platinum</td>
+                    <td>от 12 500 до 25 000 баллов</td>
+                    <td>3:1</td>
+                    <td>500 баллов и<br>
+                      2500 рублей на счет</td>
+                  </tr>
+                  <tr>
+                    <td>Diamond</td>
+                    <td>от 25 000 до 50 000 баллов</td>
+                    <td>2:1</td>
+                    <td>1000 баллов и<br>
+                      5000 рублей на счет</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+
+            <div class="h2o-main-box">
+              <h4>Преимущества казино:</h4>
+              <ol>
+                <li>
+                  <p><b>Iron</b> (от 0 до 100 баллов)</p>
+                </li>
+                <li>
+                  <p><b>Bronze</b> (от 100 до 500 баллов)</p>
+                </li>
+                <li>
+                  <p><b>Silver</b> (от 500 до 2500 баллов)</p>
+                </li>
+                <li>
+                  <p><b>Gold</b> (от 2500 до 12 500 баллов)</p>
+                </li>
+                <li>
+                  <p><b>Platinum</b> (от 12 500 до 25 000 баллов)</p>
+                </li>
+                <li>
+                  <p><b>Diamond</b> (от 25 000 до 50 000 баллов)</p>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="h2o-about-section__inner">
+            <h4>Общие вопросы</h4>
+            <div class="h2o-main-box">
+              <ul class='h2o-accordion' data-single='true' data-breakpoint='576' data-accordion-init>
+                <li class='h2o-accordion__item'>
+                  <button class='h2o-accordion__button' data-id='1'>
+                    <span class="h2o-accordion__title">1. ОТВЕТСТВЕННАЯ ИГРА</span>
+                    <span class="h2o-accordion__icon"></span>
+                  </button>
+
+                  <div class='h2o-accordion__content' data-content='1'>
+                    <div class="h2o-accordion__box">
+                      <p>Казино признает, что игра может быть захватывающей и, в случае обнаружения игровой зависимости,
+                        предлагает различные виды услуг, чтобы помочь Игроку. Играя в игры за деньги, вы понимаете, что
+                        вы рискуете потерять деньги, и победа - это случайность. Казино приняло ряд мер, которые
+                        позволят вам играть в игры ответственным образом.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class='h2o-accordion__item'>
+                  <button class='h2o-accordion__button' data-id='2'>
+                    <span class="h2o-accordion__title">2. СИСТЕМНЫЕ ОШИБКИ</span>
+                    <span class="h2o-accordion__icon"></span>
+                  </button>
+                  <div class='h2o-accordion__content' data-content='2'>
+                    <div class="h2o-accordion__box">
+                      <p>В случае каких-либо сбоев в системе или ошибок в игре, Казино стремится приложить максимум
+                        усилий, чтобы как можно скорее решить эту проблему. Казино не несет никакой ответственности за
+                        неисправность инструментов информационных технологий, вызванных работой оборудования,
+                        используемого Игроком для доступа к Веб-сайту, а также за сбои в работе интернет-провайдера
+                        Игрока.</p>
+                    </div>
+                  </div>
+
+                </li>
+                <li class='h2o-accordion__item'>
+                  <button class='h2o-accordion__button' data-id='3'>
+                    <span class="h2o-accordion__title">3. НАРУШЕНИЕ УСЛОВИЙ</span>
+                    <span class="h2o-accordion__icon"></span>
+                  </button>
+
+                  <div class='h2o-accordion__content' data-content='3'>
+                    <div class="h2o-accordion__box">
+                      <p>В случае нарушения данных Правил и Условии Игроком, Игрок соглашается полностью возместить и /
+                        или взять на себя любые издержки (включая судебные издержки) и обязательства, связанные с таким
+                        нарушением.</p>
+                      <p>В рамках использования Игроком услуг Казино, Игрок согласен полностью возмещать причиненные им
+                        убытки, защищать и отстаивать интересы Казино, компании / организации оператора Веб-сайта и /
+                        или владельца игровой лицензии, а также их должностных лиц от любых притязаний, требований,
+                        ответственности, ущерба, потерь, издержек и расходов, включая судебные издержки и любые другие
+                        расходы.</p>
+                    </div>
+
+                  </div>
+                </li>
+                <li class='h2o-accordion__item'>
+                  <button class='h2o-accordion__button' data-id='4'>
+                    <span class="h2o-accordion__title">4. ЛИЧНЫЕ ДАННЫЕ ИГРОКА</span>
+                    <span class="h2o-accordion__icon"></span>
+                  </button>
+
+                  <div class='h2o-accordion__content' data-content='4'>
+                    <div class="h2o-accordion__box">
+                      <p>Казино ценит неприкосновенность и конфиденциальность Игрока и его Персональных Данных (как
+                        определено в Политике конфиденциальности). Мы собираем, обрабатываем и предоставляем только
+                        информацию, необходимую для предоставления наших услуг. Казино обрабатывает персональную
+                        информацию, предоставляемую Игроком, строго в соответствии с Политикой конфиденциальности и
+                        применимым законодательством о защите персональных данных, в зависимости от страны проживания
+                        Игрока.</p>
+                    </div>
+                  </div>
+
+                </li>
+                <li class='h2o-accordion__item'>
+                  <button class='h2o-accordion__button' data-id='5'>
+                    <span class="h2o-accordion__title">5. ПЕРЕДАЧА ПРАВ</span>
+                    <span class="h2o-accordion__icon"></span>
+                  </button>
+
+                  <div class='h2o-accordion__content' data-content='5'>
+                    <div class="h2o-accordion__box">
+                      <p>Казино сохраняет за собой право, полностью или частично, уступать или иным образом передавать
+                        свои права и обязанности в соответствии с настоящими Правилами и Условиями любому лицу или
+                        организации (без согласия Игрока) при условии, что для Игрока все условия остаются неизменными
+                        или будут изменены в лучшую сторону. Игрок не может каким-либо образом уступать или иным образом
+                        передавать свои права или обязанности в соответствии с настоящими Правилами и Условиями.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  @include('partials/footer.html')
+  @include('partials/overlay.html')
+
+  <script src="static/js/splide-extension-grid.min.js"></script>
+  <script src="static/js/splide.js"></script>
+  <script src="static/js/main.js"></script>
+</body>
+
+</html>

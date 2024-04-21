@@ -1,0 +1,8 @@
+.h2o-play-section{
+    padding: 20px 0 clamp(40px, 4.428vw, 60px);
+    
+    &__box{
+        display: flex;
+        justify-content: center;
+    }
+}
